@@ -8,10 +8,11 @@ def get_column_names(data):
         column_names: list of column names
     """
     k=[]
+    arr=[]
     r=data.split()
     for i in r :
         k.append(i)
-    return k[0]
+    return k[0].split(',')
 
 
 # Read the csv file
