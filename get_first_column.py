@@ -8,7 +8,7 @@ def get_first_column(data):
     """
     r=data.split()
     k=r[0].split(",")
-    return k[0]
+    return type(k[0])
     
 # Read the csv file
 f=open("data.csv")
