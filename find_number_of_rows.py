@@ -9,7 +9,7 @@ def find_number_of_rows(data):
     r=data.split()
     for i in r :
         k=i.split(',')[0]
-    return int(k)
+    return int(k)+1
 
 # Read the csv file
 f=open('data.csv')
